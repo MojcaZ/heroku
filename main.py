@@ -8,7 +8,7 @@ def index():                                # je route brez vsega, zato dobimo n
                                             # to je kontroler - na poti / se izvede fukncija def
                                            # / je osnovna stran, na katero pridemo. na isti poti imamo lahko en handler
 @app.route("/about")
-def about():
+def about_me():
     return render_template("about.html")
 
 @app.route("/portfolio")
