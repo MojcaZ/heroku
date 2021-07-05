@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #c3c388;
+}
+
+h1 {
+  color: #6600cc;
+  letter-spacing: 2px;
+}
+
+.searchbar {
+  border: 2px solid grey;
+  border-radius: 8px;
+  height: 25px;
+  min-width: 30%;
+}
+
+.searchbar:hover, .searchbar:focus {
+    border: 2px solid #6600cc;
+    background-color: #ccccff;
+}
+
+img {
+  max-width: 70%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.button {
+  border-radius: 8px;
+  width: 120px;
+  padding: 5px 5px;
+  border: 2px solid grey;
+  background-color: white;
+  margin: 10px;
+}
+
+.button:hover {
+  border: 2px solid #6600cc;
+  background-color: #ccccff;
+}
+
+h3 {
+  color: #6600cc;
+  letter-spacing: 2px;
+}
+
+strong {
+  color: #6600cc;
+  letter-spacing: 1,5px;
+}
