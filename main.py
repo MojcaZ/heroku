@@ -19,7 +19,7 @@ def portfolio():
 def boogle():
     return render_template("/boogle.html")
 
-@app.route("/boogle_login")
+@app.route("/boogle-login")
 def boogle_login():
     return render_template("/boogle_login.html")
 
