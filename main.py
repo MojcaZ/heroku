@@ -6,7 +6,7 @@ app = Flask(__name__)   #ustvarimo instanco
 def index():                                # je route brez vsega, zato dobimo na strani tekst
     return render_template("index.html")    # če bi imeli za slashem tekst, ga moramo napisat tudi v vrstico v browserju
                                             # to je kontroler - na poti / se izvede fukncija def
-                                           # / je osnovna stran, na katero pridemo. na isti poti imamo lahko en handler
+                                           #/ je osnovna stran, na katero pridemo. na isti poti imamo lahko en handler
 @app.route("/about")
 def about_me():
     return render_template("about.html")
